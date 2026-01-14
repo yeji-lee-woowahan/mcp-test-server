@@ -1,0 +1,29 @@
+{
+  "name": "mcphub-test-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/server.js",
+  "bin": {
+    "mcphub-test-server": "dist/server.js"
+  },
+  "scripts": {
+    "dev:stdio": "node --loader ts-node/esm src/server.ts --stdio",
+    "dev:http": "node --loader ts-node/esm src/server.ts --http --port 3333",
+    "build": "tsc -p tsconfig.json",
+    "start:stdio": "node dist/server.js --stdio",
+    "start:http": "node dist/server.js --http --port 3333"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.2",
+    "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

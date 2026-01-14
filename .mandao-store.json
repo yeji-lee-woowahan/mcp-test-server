@@ -1,0 +1,29 @@
+{
+  "pages": {
+    "p_f29152b3-dc3f-41f8-a6b6-41a4149d393b": {
+      "id": "p_f29152b3-dc3f-41f8-a6b6-41a4149d393b",
+      "title": "테스트 페이지",
+      "locale": "ko-KR",
+      "templateId": "t_basic",
+      "status": "draft",
+      "content": "<h1>새 페이지</h1><p>내용을 입력하세요.</p>",
+      "createdAt": "2026-01-12T06:50:07.639Z",
+      "updatedAt": "2026-01-12T06:50:07.639Z",
+      "createdBy": "yeji",
+      "updatedBy": "yeji"
+    }
+  },
+  "templates": {
+    "t_basic": {
+      "id": "t_basic",
+      "name": "기본 템플릿",
+      "defaultContent": "<h1>새 페이지</h1><p>내용을 입력하세요.</p>"
+    },
+    "t_promo": {
+      "id": "t_promo",
+      "name": "프로모션 템플릿",
+      "defaultContent": "<h1>프로모션</h1><p>혜택을 강조해보세요.</p>"
+    }
+  },
+  "assets": {}
+}
